@@ -16,7 +16,7 @@ libraryDependencies <+= (scalaVersion) { scalaVersion: String =>
   "play" %% "play" % playVersion % "provided->default"  
 }
 
-libraryDependencies += "com.dlecan.reflections" % "jboss7-reflections-vfs-integration-core" % "1.1.0-SNAPSHOT"
+libraryDependencies += "com.dlecan.reflections" % "jboss7-reflections-vfs-integration-core" % "1.1.0"
 
 publishTo <<= (version) { version: String =>
   val nexus = "https://oss.sonatype.org/"
